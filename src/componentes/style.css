@@ -1,0 +1,50 @@
+.search-bar {
+    display: flex;
+    align-items: center;
+    border: 1px solid #484B5B; /* Borda para o campo de pesquisa */
+    border-radius: 4px; /* Borda arredondada */
+    padding: 3px 10px; /* Espaçamento interno */
+    height: 30px;
+    width: 200px; /* Largura do campo de pesquisa (ajuste conforme necessário) */
+  }
+  
+  .search-input {
+    flex: 1; /* Ocupa todo o espaço disponível no contêiner */
+    border: none; /* Remove a borda padrão do input */
+    outline: none; /* Remove a borda de foco */
+    padding: 5px; /* Espaçamento interno */
+    font-size: 14px; /* Tamanho da fonte */
+    border-radius: 3px;
+    border: 1px solid #484B5B;
+    display: flex;
+    align-items: center;
+  }
+
+
+  .menu-icons {
+    display: flex;
+    gap: 16px;
+  }
+
+
+.MainGrid{
+  display: grid;
+  grid-template-areas: "firstColumn secondColumn";
+  grid-template-columns: 957px 293px;
+  grid-gap: 35px;
+  max-width: 957px;
+  margin: 15px auto;
+  }
+
+.box {
+    background: #a7a7a7;
+    border: 10px solid #484B5B; /* Adiciona a borda */
+    border-radius: 19px;
+}
+
+
+
+
+
+  
+  
